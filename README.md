@@ -1,6 +1,6 @@
 # 🌍 TripGenie – AI Powered Travel Planner ✈️
 
-TripGenie is an **AI-powered travel planning assistant** that generates personalized itineraries, checks weather, finds flights (via Amadeus API), and enhances trip details using **OpenAI GPT models** – all in one place.  
+TripGenie is an **AI-powered travel planning assistant** that generates personalized itineraries, checks weather, finds flights (via Amadeus API), and enhances trip details using **OpenAI GPT models**  
 
 It combines:
 - 🧳 **Itinerary generation**
