@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TripGenie Travel Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kareemz TripGenie Travel Planner</h1>
+
+        <div class="form-group">
+            <label>Origin:</label>
+            <input id="origin" value="DEL">
+            <label>Destination:</label>
+            <input id="destination" value="NYC">
+        </div>
+
+        <div class="form-group">
+            <label>Start Date:</label>
+            <input id="start_date" type="date" value="2025-09-15">
+            <label>Nights:</label>
+            <input id="nights" type="number" value="3">
+            <label>Travelers:</label>
+            <input id="travelers" type="number" value="1">
+        </div>
+
+        <button onclick="getExtendedPlan()">Get Extended Plan</button>
+
+        <div id="error" class="error"></div>
+
+        <div id="results" class="results">
+            <div id="itinerary" class="card"></div>
+            <div id="weather" class="card"></div>
+            <div id="flights" class="card"></div>
+            <div id="ai_text" class="card"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
